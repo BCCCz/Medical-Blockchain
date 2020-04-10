@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cab82e83-c44c-43c4-9c26-9dbed4508fee" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZuzkIxxOwyHZ31bM7BRJl25nr6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ztest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.chain">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/accout" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/accout/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ztest/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ztest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ztest/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/account/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chain" type="Python.DjangoServer" factoryName="Django server">
+      <module name="chain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="chain.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.urls" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab82e83-c44c-43c4-9c26-9dbed4508fee" name="默认更改列表" comment="" />
+      <created>1585703910759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585703910759</updated>
+      <workItem from="1585703922017" duration="328000" />
+      <workItem from="1585704262451" duration="4434000" />
+      <workItem from="1585970637265" duration="1000" />
+      <workItem from="1586255781723" duration="4458000" />
+      <workItem from="1586270834168" duration="2105000" />
+      <workItem from="1586338239121" duration="5380000" />
+      <workItem from="1586408127996" duration="26073000" />
+      <workItem from="1586493741881" duration="1714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="173" key="#Inspections" timestamp="1586420963620">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="560" y="173" key="#Inspections/0.24.1920.1005@0.24.1920.1005" timestamp="1586420963620" />
+    <state x="682" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586493919417">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="682" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.1005@0.24.1920.1005" timestamp="1586493919417" />
+    <state x="734" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586344720647">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="734" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1005@0.24.1920.1005" timestamp="1586344720647" />
+    <state x="886" y="188" width="800" height="740" key="#意向" timestamp="1586435376195">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="886" y="188" width="800" height="740" key="#意向/0.24.1920.1005@0.24.1920.1005" timestamp="1586435376195" />
+    <state x="100" y="94" width="1720" height="835" key="DiffContextDialog" timestamp="1586420993254">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="100" y="94" width="1720" height="835" key="DiffContextDialog/0.24.1920.1005@0.24.1920.1005" timestamp="1586420993254" />
+    <state x="689" y="253" key="FileChooserDialogImpl" timestamp="1586270902009">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="689" y="253" key="FileChooserDialogImpl/0.24.1920.1005@0.24.1920.1005" timestamp="1586270902009" />
+    <state width="1352" height="205" key="GridCell.Tab.0.bottom" timestamp="1586495343524">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state width="1352" height="205" key="GridCell.Tab.0.bottom/0.24.1920.1005@0.24.1920.1005" timestamp="1586495343524" />
+    <state width="1352" height="205" key="GridCell.Tab.0.center" timestamp="1586495343524">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state width="1352" height="205" key="GridCell.Tab.0.center/0.24.1920.1005@0.24.1920.1005" timestamp="1586495343524" />
+    <state width="1352" height="205" key="GridCell.Tab.0.left" timestamp="1586495343523">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state width="1352" height="205" key="GridCell.Tab.0.left/0.24.1920.1005@0.24.1920.1005" timestamp="1586495343523" />
+    <state width="1352" height="205" key="GridCell.Tab.0.right" timestamp="1586495343524">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state width="1352" height="205" key="GridCell.Tab.0.right/0.24.1920.1005@0.24.1920.1005" timestamp="1586495343524" />
+    <state width="1348" height="315" key="GridCell.Tab.1.bottom" timestamp="1585705582894">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state width="1348" height="315" key="GridCell.Tab.1.bottom/0.24.1920.1005@0.24.1920.1005" timestamp="1585705582894" />
+    <state width="1348" height="315" key="GridCell.Tab.1.center" timestamp="1585705582894">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state width="1348" height="315" key="GridCell.Tab.1.center/0.24.1920.1005@0.24.1920.1005" timestamp="1585705582894" />
+    <state width="1348" height="315" key="GridCell.Tab.1.left" timestamp="1585705582894">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state width="1348" height="315" key="GridCell.Tab.1.left/0.24.1920.1005@0.24.1920.1005" timestamp="1585705582894" />
+    <state width="1348" height="315" key="GridCell.Tab.1.right" timestamp="1585705582894">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state width="1348" height="315" key="GridCell.Tab.1.right/0.24.1920.1005@0.24.1920.1005" timestamp="1585705582894" />
+    <state x="777" y="160" key="SettingsEditor" timestamp="1586415295633">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="777" y="160" key="SettingsEditor/0.24.1920.1005@0.24.1920.1005" timestamp="1586415295633" />
+    <state x="616" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1586493741876">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="616" y="354" key="com.intellij.ide.util.TipDialog/0.24.1920.1005@0.24.1920.1005" timestamp="1586493741876" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/chain$urls.coverage" NAME="urls Coverage Results" MODIFIED="1586425589710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/account" />
+    <SUITE FILE_PATH="coverage/chain$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1586439872615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ztest" />
+    <SUITE FILE_PATH="coverage/chain$models.coverage" NAME="models Coverage Results" MODIFIED="1586418430478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/accout" />
+    <SUITE FILE_PATH="coverage/chain$text.coverage" NAME="text Coverage Results" MODIFIED="1586415440749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
