@@ -6,4 +6,3 @@ urlpatterns = [
     path('login/detail/', views.detail),
 ]
 
-
