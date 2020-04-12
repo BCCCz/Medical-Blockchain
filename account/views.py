@@ -1,6 +1,6 @@
 # Create your views here.
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.shortcuts import redirect
 from django.contrib.auth import login
 from django.contrib.auth import logout
@@ -40,4 +40,4 @@ def detail(request):
     headers = {'Content-type': 'application/json', 'token': token}
 
     r = ses.post(url, headers=headers)
-    return HttpResponse(r.text)
+    return redirect('http://localhost:8000/page/')
