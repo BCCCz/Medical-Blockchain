@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+    <form method="post" action="detail/">
+        {% csrf_token %}
+        <label for="id">id：</label>
+        <input id="id" type="text" name="id" value="{{id}}"><br/>
+
+        <label for="age">age：</label>
+        <input id="age" type="text" name="age" value="{{age}}"><br/>
+
+        <label for="tel">tel：</label>
+        <input id="tel" type="text" name="tel" value="{{tel}}"><br/>
+
+        <input type="submit" value="submit" >
+    </form>
+</body>
+</html>
