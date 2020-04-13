@@ -109,3 +109,5 @@ def meidcalquery(request):
     }
     r = requests.post(url,json=data,headers=headers)
     return render(request,"information/medicalQuery.html",)
+
+#111111111
