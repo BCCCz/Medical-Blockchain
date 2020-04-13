@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>登录</title>
 </head>
+
 <body>
-    <form method="post" action="init/">
+    <form method="post" action="initdetail/">
         {% csrf_token %}
         <label for="id">id：</label>
-        <input id="id" type="text" name="id" value="{{id}}"><br/>
+        <input id="id" type="text" name="id" value="{{id}}"><br />
 
         <label for="name">name：</label>
-        <input id="name" type="text" name="name" value="{{name}}"><br/>
+        <input id="name" type="text" name="name" value="{{name}}"><br />
 
         <label for="sex">sex：</label>
-        <input id="sex" type="text" name="sex" value="{{sex}}"><br/>
+        <input id="sex" type="text" name="sex" value="{{sex}}"><br />
 
         <label for="idCard">idCard：</label>
-        <input id="idCard" type="text" name="idCard" value="{{idCard}}"><br/>
+        <input id="idCard" type="text" name="idCard" value="{{idCard}}"><br />
 
         <label for="age">age：</label>
-        <input id="age" type="text" name="age" value="{{age}}"><br/>
+        <input id="age" type="text" name="age" value="{{age}}"><br />
 
         <label for="tel">tel：</label>
-        <input id="tel" type="text" name="tel" value="{{tel}}"><br/>
+        <input id="tel" type="text" name="tel" value="{{tel}}"><br />
 
-        <input type="submit" value="submit" >
+        <input type="submit" value="submit">
     </form>
 </body>
+
 </html>

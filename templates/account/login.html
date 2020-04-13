@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>登录</title>
 </head>
+
 <body>
     <form method="post" action="detail/">
         {% csrf_token %}
         <label for="username">用户名：</label>
-        <input id="username" type="text" name="username" value="{{username}}"><br/>
+        <input id="username" type="text" name="username" value="{{username}}"><br />
+
         <label for="password">密码：</label>
-        <input id="password" type="password" name="password" value="{{password}}"><br/>
+        <input id="password" type="password" name="password" value="{{password}}"><br />
+
         <label for="username">验证码：</label>
-        <input id="username" type="text" name="checkcode" value="{{checkcode}}"><img src="{{checkcode_img}}"/><br/>
-        <input type="submit" value="login" >
+        <input id="username" type="text" name="checkcode" value="{{checkcode}}"><img src="{{checkcode_img}}" /><br />
+        
+        <input type="submit" value="login">
     </form>
 </body>
+
 </html>
