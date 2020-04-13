@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cab82e83-c44c-43c4-9c26-9dbed4508fee" name="默认更改列表" comment="" />
+    <list default="true" id="cab82e83-c44c-43c4-9c26-9dbed4508fee" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/information/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/information/accountInit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/accountinit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/information/accountQuery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/accountquery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/information/accountUpdate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/accountupdate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/information/medicalRecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/medicalrecord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/information/meidcalQuery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/meidcalquery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/information/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZuzkIxxOwyHZ31bM7BRJl25nr6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,6 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -182,6 +196,7 @@
       <workItem from="1586338239121" duration="5380000" />
       <workItem from="1586408127996" duration="26073000" />
       <workItem from="1586493741881" duration="1714000" />
+      <workItem from="1586771798367" duration="638000" />
     </task>
     <servers />
   </component>
@@ -205,6 +220,10 @@
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
     <state x="886" y="188" width="800" height="740" key="#意向/0.24.1920.1005@0.24.1920.1005" timestamp="1586435376195" />
+    <state x="449" y="42" key="CommitChangelistDialog2" timestamp="1586772453981">
+      <screen x="0" y="24" width="1920" height="1005" />
+    </state>
+    <state x="449" y="42" key="CommitChangelistDialog2/0.24.1920.1005@0.24.1920.1005" timestamp="1586772453981" />
     <state x="100" y="94" width="1720" height="835" key="DiffContextDialog" timestamp="1586420993254">
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
@@ -249,10 +268,21 @@
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
     <state x="777" y="160" key="SettingsEditor/0.24.1920.1005@0.24.1920.1005" timestamp="1586415295633" />
-    <state x="616" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1586493741876">
+    <state x="616" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1586771798363">
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
-    <state x="616" y="354" key="com.intellij.ide.util.TipDialog/0.24.1920.1005@0.24.1920.1005" timestamp="1586493741876" />
+    <state x="616" y="354" key="com.intellij.ide.util.TipDialog/0.24.1920.1005@0.24.1920.1005" timestamp="1586771798363" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/information/views.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/chain$urls.coverage" NAME="urls Coverage Results" MODIFIED="1586425589710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/account" />

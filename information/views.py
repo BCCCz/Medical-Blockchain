@@ -24,8 +24,8 @@ def accountinit(request):
         "groupId": "1",
         'user': "0xd8904921a83ffe1b77b48873eca0f7948a4e8333"
     }
-    r = requests.post(url,json=data,headers=headers)
-    return render(request,"information/accountInit.html")
+    r = requests.post(url, json=data,headers=headers)
+    return render(request, "information/accountinit.html")
 
 def accountupdate(request):
     url = 'http://127.0.0.1:5002/WeBASE-Front/trans/handle'
@@ -45,7 +45,7 @@ def accountupdate(request):
         'user': "0xd8904921a83ffe1b77b48873eca0f7948a4e8333"
     }
     r = requests.post(url,json=data,headers=headers)
-    return render(request,"information/accountUpdate.html")
+    return render(request, "information/accountupdate.html")
 
 def accountquery(request):
     url = 'http://127.0.0.1:5002/WeBASE-Front/trans/handle'
@@ -65,7 +65,7 @@ def accountquery(request):
         'user': "0xd8904921a83ffe1b77b48873eca0f7948a4e8333"
     }
     r = requests.post(url,json=data,headers=headers)
-    return render(request,"information/accountQuery.html")
+    return render(request, "information/accountquery.html")
 
 
 def medicalrecord(request):
@@ -87,7 +87,7 @@ def medicalrecord(request):
         'user': "0xd8904921a83ffe1b77b48873eca0f7948a4e8333"
     }
     r = requests.post(url,json=data,headers=headers)
-    return render(request,"information/medicalRecord.html")
+    return render(request, "information/medicalrecord.html")
 
 
 def meidcalquery(request):
@@ -108,6 +108,4 @@ def meidcalquery(request):
         'user': "0xd8904921a83ffe1b77b48873eca0f7948a4e8333"
     }
     r = requests.post(url,json=data,headers=headers)
-    return render(request,"information/medicalQuery.html",)
-
-#111111111
+    return render(request,"information/medicalquery.html",)
