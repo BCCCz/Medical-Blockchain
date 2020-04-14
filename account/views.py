@@ -1,7 +1,6 @@
 # Create your views here.
 from django.http import HttpResponse
-from django.shortcuts import render
-from django.shortcuts import redirect
+from django.shortcuts import render,redirect
 from django.contrib.auth import login
 from django.contrib.auth import logout
 from django.contrib.auth import authenticate
@@ -32,6 +31,7 @@ def user_login(request):
 
 
 def detail(request):
+<<<<<<< HEAD
     if request.method == "POST":
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -41,3 +41,14 @@ def detail(request):
 
         r = ses.post(url, headers=headers)
         return HttpResponse(r.text)
+=======
+    #if request.method == "POST":
+    username = request.POST.get('username')
+    password = request.POST.get('password')
+    checkcode = request.POST.get('checkcode')
+    url = 'http://127.0.0.1:5001/WeBASE-Node-Manager/account/login?checkCode={0}&account={1}&accountPwd={2}'.format(checkcode, username, str(hashlib.sha256(password.encode("utf-8")).hexdigest()))
+    headers = {'Content-type': 'application/json', 'token': token}
+
+    r = ses.post(url, headers=headers)
+    return render(request, "information/page.html")
+>>>>>>> bc

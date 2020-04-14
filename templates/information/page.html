@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>您已经成功登录，选择你需要的服务</title>
+</head>
+<body>
+<ul>
+<li><a href="http://localhost:8000/information/initpage/" target="_blank">accountInit</a></li>
+    <p>
+        初始化账户，成功则返回1，初始化账户时记录的医疗信息数初始化为0<br>
+        input:<br>
+            uint64 id<br>
+            string name<br>
+            string sex<br>
+            uint64 idCard<br>
+            int age<br>
+            uint64 tel<br><br>
+        output:<br>
+	        int 1<br>
+    </p>
+
+<li><a href="http://localhost:8000/information/updatepage/" target="_blank">accountUpdate</a></li>
+        <p>
+        根据账户的标识，id索引找到账户，这里设计的是只能更新年龄age和联系方式tel。<br>
+        input:<br>
+            uint64 id<br>
+            int age<br>
+            uint64 tel<br><br>
+        output:<br>
+	        int 1<br>
+    </p>
+
+<li><a href="http://localhost:8000/information/query/" target="_blank">accountQuery</a></li>
+    <p>
+        查询账户信息，相比初始化时，增加返回医疗信息数量，建议在查询医疗信息时先通过此接口查询到医疗信息数量后再进行医疗信息查询的接口查询，避免越界。如有需要丰富查询，增加效率，建议把每个账户的医疗信息列表同步到数据库中优化。
+        input:<br>
+            uint64 id<br><br>
+        output:<br>
+            uint64 id<br>
+​	    string name<br>
+​	    string sex<br>
+​	    uint64 idCard<br>
+​	    int age<br>
+​	    uint64 tel<br>
+        uint64 times<br>
+    </p>
+
+<li><a href="http://localhost:8000/information/record/" target="_blank">medicalRecord</a></li>
+    <p>
+        记录一条医疗信息，输入账户id和医疗信息，记录时账户对应的数据结构中times字段+1，医疗信息记录在账户数据结构中的医疗信息列表中。
+        input:<br>
+            uint64 id,<br>
+        uint64 time,<br>
+        string place,<br>
+        string info,<br>
+        uint64 timeStamp<br><br>
+        output:<br>
+        int 1<br>
+    </p>
+<li><a href="http://localhost:8000/information/medicalquery/" target="_blank">meidcalQuery</a></li>
+    <p>
+        查询某个用户的某一条医疗信息。输入为用户标识、第几条医疗信息，返回该条医疗信息。
+        input:<br>
+​	        uint64 id.<br>
+​	        uint64 times<br><br>
+
+        output:<br>
+​            uint64 time,<br>
+​            string place,<br>
+​            string info,<br>
+​            uint64 timeStamp<br>
+    </p>
+</ul>

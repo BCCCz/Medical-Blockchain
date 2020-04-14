@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+    <form method="post" action="query/">
+        {% csrf_token %}
+        <label for="id">id：</label>
+        <input id="id" type="text" name="id" value="{{id}}"><br/>
+
+        <input type="submit" value="submit" >
+    </form>
+</body>
+</html>
