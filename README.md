@@ -1,4 +1,4 @@
-## 信息安全作品赛后端
+## GO Team后端
 框架：Django 2.2　
 
 前提：需要提前部署WEBASE，并部署Medical合约　
