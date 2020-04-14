@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+    <form method="post" action="record/">
+        {% csrf_token %}
+        <label for="id">id：</label>
+        <input id="id" type="text" name="id" value="{{id}}"><br/>
+
+        <label for="time">time：</label>
+        <input id="time" type="text" name="time" value="{{time}}"><br/>
+
+        <label for="place">place：</label>
+        <input id="place" type="text" name="place" value="{{place}}"><br/>
+
+        <label for="info">info：</label>
+        <input id="info" type="text" name="info" value="{{info}}"><br/>
+
+        <label for="timeStamp">tel：</label>
+        <input id="timeStamp" type="text" name="timeStamp" value="{{timeStamp}}"><br/>
+
+        <input type="submit" value="submit" >
+    </form>
+</body>
+</html>
