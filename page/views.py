@@ -6,9 +6,12 @@ from django.template import loader
 # Create your views here.
 
 
-def homepage(request):
-    return render(request, 'account/homepage.html')
+def index(request):
+    return render(request, 'account/index.html')
 
+def prevention(requset):
+    return render(requset,'account/prevention.html')
 
-def page(request):
-    return render(request, 'inforamation/page.html')
+def faqs(requset):
+    return render(requset,'account/faqs.html')
+
