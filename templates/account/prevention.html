@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>预防传染病</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static "assets/images/favicons/apple-touch-icon.png"%}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static "assets/images/favicons/favicon-32x32.png"%}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static "assets/images/favicons/favicon-16x16.png"%}">
+    <link rel="manifest" href="{% static "assets/images/favicons/site.webmanifest"%}">
+    <!-- plugin scripts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700%7CBarlow:300,400,500,600,700,800,900%7CPT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "assets/css/animate.min.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/bootstrap.min.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/owl.carousel.min.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/owl.theme.default.min.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/magnific-popup.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/fontawesome-all.min.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/bootstrap-select.min.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/jquery.mCustomScrollbar.min.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/bootstrap-datepicker.min.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/vimns-icons.css"%}">
+    <!-- template styles -->
+    <link rel="stylesheet" href="{% static "assets/css/main.css"%}">
+    <link rel="stylesheet" href="{% static "assets/css/responsive.css"%}">
+
+</head>
+<body>
+    <div class="preloader">
+        <img src="{% static "assets/images/loader.png"%}" class="preloader__image" alt="">
+    </div><!-- /.preloader -->
+    <div class="page-wrapper">
+
+         <header class="site-header-one">
+            <nav class="main-nav__one stricky">
+                <div class="container-fluid">
+                    <div class="main-nav__logo-box">
+                        <a href="http://localhost:8000/index">
+                            <img width="137" src="{% static "assets/images/logo-1-1.png"%}" alt="">
+                        </a>
+                        <a href="#" class="side-menu__toggler"><i class="fa fa-bars"></i></a>
+                    </div><!-- /.main-nav__logo-box -->
+                    <div class="main-nav__main-navigation">
+                        <ul class=" main-nav__navigation-box">
+
+                            <li>
+                                <a href="http://localhost:8000/index">首页</a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/prevention">预防传染病</a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/faqs">常见问题</a>
+                            </li>
+
+                             <li>
+                                <a href="https://youngbc.cn">白皮书</a>
+                            </li>
+
+                             <li>
+                                <a href="http://localhost:5000/#/login">监管平台</a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/users/login">登录</a>
+                            </li>
+
+                        </ul>
+                    </div><!-- /.main-nav__main-navigation -->
+                    <div class="main-nav__cta">
+
+                    </div><!-- /.main-nav__cta -->
+                    <div class="main-nav__right">
+                        <a href="http://localhost:8000/prevention/" class="main-nav__btn">Prevention</a><!-- /.main-nav__btn -->
+                    </div><!-- /.main-nav__right -->
+                </div><!-- /.container-fluid -->
+            </nav><!-- /.main-nav__one -->
+
+        </header><!-- /.site-header-one -->
+
+
+        <section class="page-header">
+            <div class="container">
+                <h2>Prevention</h2>
+                <ul class="thm-breadcrumb list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><span>Prevention</span></li>
+                </ul><!-- /.thm-breadcrumb -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
+
+        <section class="prevention-one prevention-one__prevention-page">
+            <div class="container">
+                <div class="block-title text-center">
+                    <p>List of All Preventions </p>
+                    <h3>Checkout Our Main Precaution</h3>
+                </div><!-- /.block-title text-center -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="prevention-one__box">
+                            <div class="prevention-one__box-top">
+                                <h3>我们应该怎么做</h3>
+                            </div><!-- /.prevention-one__box-top -->
+                            <div class="prevention-one__box-bottom">
+                                <div class="prevention-one__single">
+                                    <div class="prevention-one__icon">
+                                        <div class="prevention-one__icon-inner">
+                                            <img src="{% static "assets/images/shapes/should-do-i-1-1.png"%}" alt="">
+                                        </div><!-- /.prevention-one__icon-inner -->
+                                    </div><!-- /.prevention-one__icon -->
+                                    <div class="prevention-one__content">
+                                        <h3>勤洗手 </h3>
+                                        <p>有效地杀死细菌和病毒</p>
+                                    </div><!-- /.prevention-one__content -->
+                                </div><!-- /.prevention-one__single -->
+
+                                <div class="prevention-one__single">
+                                    <div class="prevention-one__icon">
+                                        <div class="prevention-one__icon-inner">
+                                            <img src="{% static "assets/images/shapes/should-do-i-1-2.png" %}"alt="">
+                                        </div><!-- /.prevention-one__icon-inner -->
+                                    </div><!-- /.prevention-one__icon -->
+                                    <div class="prevention-one__content">
+                                        <h3>出门戴口罩 </h3>
+                                        <p>飞防止病毒通过飞沫传播</p>
+                                    </div><!-- /.prevention-one__content -->
+                                </div><!-- /.prevention-one__single -->
+
+                            
+                                
+                            </div><!-- /.prevention-one__box-bottom -->
+                        </div><!-- /.prevention-one__box -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="prevention-one__box">
+                            <div class="prevention-one__box-top">
+                                <h3>我们不应该怎么做</h3>
+                            </div><!-- /.prevention-one__box-top -->
+                            <div class="prevention-one__box-bottom">
+                                
+
+                                
+
+                                <div class="prevention-one__single">
+                                    <div class="prevention-one__icon">
+                                        <div class="prevention-one__icon-inner">
+                                            <img src="{% static "assets/images/shapes/should-no-i-1-3.png"%}" alt="">
+                                        </div><!-- /.prevention-one__icon-inner -->
+                                    </div><!-- /.prevention-one__icon -->
+                                    <div class="prevention-one__content">
+                                        <h3>不去人员密集处 </h3>
+                                        <p>防止病毒聚集性传播</p>
+                                    </div><!-- /.prevention-one__content -->
+                                </div><!-- /.prevention-one__single -->
+                                <div class="prevention-one__single">
+                                    <div class="prevention-one__icon">
+                                        <div class="prevention-one__icon-inner">
+                                            <img src="{% static "assets/images/shapes/should-no-i-1-4.png" %}"alt="">
+                                        </div><!-- /.prevention-one__icon-inner -->
+                                    </div><!-- /.prevention-one__icon -->
+                                    <div class="prevention-one__content">
+                                        <h3>防止密切接触他人 </h3>
+                                        <p>防止病毒传染</p>
+                                    </div><!-- /.prevention-one__content -->
+                                </div><!-- /.prevention-one__single -->
+                            </div><!-- /.prevention-one__box-bottom -->
+                        </div><!-- /.prevention-one__box -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.prevention-one -->
+
+
+        <section class="hand-wash-one">
+            <div class="container">
+                <div class="block-title text-center">
+                    <p>4个简单步骤 </p>
+                    <h3>手洗程序</h3>
+                </div><!-- /.block-title text-center -->
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+                        <div class="hand-wash-one__single">
+                            <div class="hand-wash-one__image">
+                                <img src="{% static "assets/images/shapes/hw-i-1-1.png"%}" alt="">
+                            </div><!-- /.hand-wash-one__image -->
+                            <h3>使用肥皂</h3>
+                        </div><!-- /.hand-wash-one__single -->
+                    </div><!-- /.col-lg-3 col-md-6 wow fadeInUp -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="hand-wash-one__single">
+                            <div class="hand-wash-one__image">
+                                <img src="{% static "assets/images/shapes/hw-i-1-2.png" %}"alt="">
+                            </div><!-- /.hand-wash-one__image -->
+                            <h3>棕榈到棕榈</h3>
+                        </div><!-- /.hand-wash-one__single -->
+                    </div><!-- /.col-lg-3 col-md-6 wow fadeInUp -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                        <div class="hand-wash-one__single">
+                            <div class="hand-wash-one__image">
+                                <img src="{% static "assets/images/shapes/hw-i-1-3.png"%}" alt="">
+                            </div><!-- /.hand-wash-one__image -->
+                            <h3>手指交错</h3>
+                        </div><!-- /.hand-wash-one__single -->
+                    </div><!-- /.col-lg-3 col-md-6 wow fadeInUp -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="hand-wash-one__single">
+                            <div class="hand-wash-one__image">
+                                <img src="{% static "assets/images/shapes/hw-i-1-4.png"%}" alt="">
+                            </div><!-- /.hand-wash-one__image -->
+                            <h3>冲洗手</h3>
+                        </div><!-- /.hand-wash-one__single -->
+                    </div><!-- /.col-lg-3 col-md-6 wow fadeInUp -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.hand-wash-one -->
+
+
+        <section class="cta-one">
+            <div class="container">
+                <div class="cta-one__left">
+                    <h3>保护人们的健康安全</h3>
+                </div><!-- /.cta-one__left -->
+                <div class="cta-one__right">
+                    <a href="#" class="thm-btn cta-one__btn">发现更多</a><!-- /.thm-btn cta-one__btn -->
+                </div><!-- /.cta-one__right -->
+            </div><!-- /.container -->
+        </section><!-- /.cta-one -->
+
+
+       
+
+<script src="{% static "assets/js/jquery.min.js"%}"></script>
+    <script src="{% static "assets/js/bootstrap.bundle.min.js"%}"></script>
+    <script src="{% static "assets/js/owl.carousel.min.js"%}"></script>
+    <script src="{% static "assets/js/waypoints.min.js"%}"></script>
+    <script src="{% static "assets/js/jquery.counterup.min.js"%}"></script>
+    <script src="{% static "assets/js/TweenMax.min.js"%}"></script>
+    <script src="{% static "assets/js/wow.js"%}"></script>
+    <script src="{% static "assets/js/jquery.magnific-popup.min.js"%}"></script>
+    <script src="{% static "assets/js/jquery.ajaxchimp.min.js"%}"></script>
+    <script src="{% static "assets/js/jquery.validate.min.js"%}"></script>
+    <script src="{% static "assets/js/bootstrap-select.min.js"%}"></script>
+    <script src="{% static "assets/js/jquery.mCustomScrollbar.concat.min.js"%}"></script>
+    <script src="{% static "assets/js/bootstrap-datepicker.min.js"%}"></script>
+    <script src="{% static "assets/js/isotope.js"%}"></script>
+
+    <!-- template scripts -->
+    <script src="{% static "assets/js/theme.js"%}"></script>
+    <script src="{% static "assets/js/testimonials-owl.carousel.config.js"%}"></script>
+</body>
+
+</html>
