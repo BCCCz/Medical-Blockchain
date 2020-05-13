@@ -1,36 +1,94 @@
 <!DOCTYPE html>
-<html>
+{% load static %}
+
 <head>
-<meta charset="utf-8">
-<title>您已经成功登录，选择你需要的服务</title>
+    <title>Select</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="{% static "assets/css/reset.css" %}" type="text/css" media="all">
+    <link rel="stylesheet" href="{% static "assets/css/layout.css" %}" type="text/css" media="all">
+    <link rel="stylesheet" href="{% static "assets/css/style.css" %}" type="text/css" media="all">
+    <link rel="stylesheet" href="{% static "assets/css/prettyPhoto.css" %}" type="text/css" media="all">
+    <script type="text/javascript" src="{% static "assets/js/jquery.min2.js" %}"></script>
+    <script type="text/javascript" src="{% static "assets/js/mobilyblocks.js" %}"></script>
+    <script type="text/javascript" src="{% static "assets/js/script.js" %}"></script>
+    <script src="{% static "assets/js/jquery.transform-0.9.3.min.js" %}"></script>
+    <script src="{% static "assets/js/superfish.js" %}"></script>
+    <script type="text/javascript" src="{% static "assets/js/atooltip.jquery.js" %}"></script>
+    <script type="text/javascript" src="{% static "assets/js/pages.js" %}"></script>
+    <script type="text/javascript" src="{% static "assets/js/jScrollPane.js" %}"></script>
+    <script type="text/javascript" src="{% static "assets/js/jquery.mousewheel.js" %}"></script>
+    <script type="text/javascript" src="{% static "assets/js/contact-form.js" %}"></script>
+    <script type="text/javascript" src="{% static "assets/js/jquery.prettyPhoto.js" %}"></script>
+
 </head>
+
 <body>
-<ul>
-<li><a href="http://localhost:8000/information/initpage/" target="_blank">accountInit</a></li>
-    <p>
-        初始化账户，成功则返回1，初始化账户时记录的医疗信息数初始化为0<br>
-        input:<br>
-            uint64 id<br>
-            string name<br>
-            string sex<br>
-            uint64 idCard<br>
-            int age<br>
-            uint64 tel<br><br>
-        output:<br>
-	        int 1<br>
-    </p>
+    <div class="spinner"><div><div></div></div></div>
+    <div class="extra">
+        <div class="main">
 
-<li><a href="http://localhost:8000/information/updatepage/" target="_blank">accountUpdate</a></li>
-        <p>
-        根据账户的标识，id索引找到账户，这里设计的是只能更新年龄age和联系方式tel。<br>
-        input:<br>
-            uint64 id<br>
-            int age<br>
-            uint64 tel<br><br>
-        output:<br>
-	        int 1<br>
-    </p>
+            <!--content -->
+            <section id="content">
+                <ul>
+                    <li id="page_0">
+                        <div class="inner">
+                            <nav class="menu">
+                                <ul id="menu" class="reset">
+                                    <li id="Account init"><a href="http://localhost:8000/information/initpage/"><img src="{% static "assets/images/nav1.png" %}" alt="" class="img"><img src="{% static "assets/images/nav1_active.png" %}" alt="" class="img_act"></a></li>
+                                    <li id="Account update"><a href="http://localhost:8000/information/updatepage/"><img src="{% static "assets/images/nav7.png" %}" alt="" class="img"><img src="{% static "assets/images/nav7_active.png" %}"alt="" class="img_act"></a></li>
+                                    <li id="Account query"><a href="http://localhost:8000/information/query/"><img src="{% static "assets/images/nav6.png" %}"alt="" class="img"><img src="{% static "assets/images/nav6_active.png" %}" alt="" class="img_act"></a></li>
+                                    <li id="Medical record"><a href="http://localhost:8000/information/record/"><img src="{% static "assets/images/nav5.png" %}" alt="" class="img"><img src="{% static "assets/images/nav5_active.png" %}" alt="" class="img_act"></a></li>
+                                    <li id="Medical query"><a href="http://localhost:8000/information/medicalquery/"><img src="{% static "assets/images/nav4.png" %}" alt="" class="img"><img src="{% static "assets/images/nav4_active.png" %}" alt="" class="img_act"></a></li>
+                                </ul>
+                            </nav>
+                            <div class="menu_box">
+                                <div class="images">
+                                    <span class="Account init"></span>
+                                    <span class="Account update"></span>
+                                    <span class="Account query"></span>
+                                    <span class="Medical record"></span>
+                                    <span class="Medical query"></span>
+                                </div>
+                                <div class="tittles">
+                                    <div class="Account init">
+                                        <h2>Account init &nbsp;</h2>
+                                    </div>
+                                    <div class="Account update">
+                                        <h2>Account update &nbsp;</h2>
+                                    </div>
+                                    <div class="Account query">
+                                        <h2>Account query</h2>
+                                    </div>
+                                    <div class="Medical record">
+                                        <h2>Medical record &nbsp;</h2>
+                                    </div>
+                                    <div class="Medical query">
+                                        <h2>Medical query &nbsp;</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!--content end-->
+        </div>
+        <div class="block"></div>
+    </div>
+    <div class="body1">
+        <div class="main">
+        </div>
+    </div>
+    <script>
+        $(window).load(function () {
+            $('.spinner').hide();
+            $('body').css({ overflow: 'inherit' });
+        })
+    </script>
+    <!--coded by gfxnav-->
 
+
+<<<<<<< HEAD
 <li><a href="http://localhost:8000/information/querypage/" target="_blank">accountQuery</a></li>
     <p>
         查询账户信息，相比初始化时，增加返回医疗信息数量，建议在查询医疗信息时先通过此接口查询到医疗信息数量后再进行医疗信息查询的接口查询，避免越界。如有需要丰富查询，增加效率，建议把每个账户的医疗信息列表同步到数据库中优化。
@@ -45,30 +103,12 @@
 ​	    uint64 tel<br>
         uint64 times<br>
     </p>
+=======
+    <div style="text-align:center;clear:both">
+        Designed by Go Team
+    </div>
+</body>
+</html>
+>>>>>>> master
 
-<li><a href="http://localhost:8000/information/record/" target="_blank">medicalRecord</a></li>
-    <p>
-        记录一条医疗信息，输入账户id和医疗信息，记录时账户对应的数据结构中times字段+1，医疗信息记录在账户数据结构中的医疗信息列表中。
-        input:<br>
-            uint64 id,<br>
-        uint64 time,<br>
-        string place,<br>
-        string info,<br>
-        uint64 timeStamp<br><br>
-        output:<br>
-        int 1<br>
-    </p>
-<li><a href="http://localhost:8000/information/medicalquery/" target="_blank">meidcalQuery</a></li>
-    <p>
-        查询某个用户的某一条医疗信息。输入为用户标识、第几条医疗信息，返回该条医疗信息。
-        input:<br>
-​	        uint64 id.<br>
-​	        uint64 times<br><br>
 
-        output:<br>
-​            uint64 time,<br>
-​            string place,<br>
-​            string info,<br>
-​            uint64 timeStamp<br>
-    </p>
-</ul>

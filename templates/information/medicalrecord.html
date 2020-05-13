@@ -1,28 +1,64 @@
 <!DOCTYPE html>
-<html>
+{% load static %}
 <head>
-    <meta charset="UTF-8">
-    <title>登录</title>
+    <title>AccountInit</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Modern Contact Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+
+    <link href="{% static "assets/css/style2.css" %}" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-    <form method="post" action="record/">
-        {% csrf_token %}
-        <label for="id">id：</label>
-        <input id="id" type="text" name="id" value="{{id}}"><br/>
+    <!--main-starts-here-->
+    <div class="main-w3l">
+        <h1>AccountInit</h1>
+        <div class="w3l-submain">
 
-        <label for="time">time：</label>
-        <input id="time" type="text" name="time" value="{{time}}"><br/>
+            <form action="#" method="post">
+                <div class="contact-agile">
+                    <h2>Medical record</h2>
+                    {% csrf_token %}
 
-        <label for="place">place：</label>
-        <input id="place" type="text" name="place" value="{{place}}"><br/>
 
-        <label for="info">info：</label>
-        <input id="info" type="text" name="info" value="{{info}}"><br/>
+                    <label for="id">id：</label>
+                    <input id="id" type="text" name="id" value="{{id}}"><br/>
 
-        <label for="timeStamp">tel：</label>
-        <input id="timeStamp" type="text" name="timeStamp" value="{{timeStamp}}"><br/>
+                    <label for="time">time：</label>
+                    <input id="time" type="text" name="time" value="{{time}}"><br/>
 
-        <input type="submit" value="submit" >
-    </form>
+                    <label for="place">place：</label>
+                    <input id="place" type="text" name="place" value="{{place}}"><br/>
+
+                    <label for="info">info：</label>
+                    <input id="info" type="text" name="info" value="{{info}}"><br/>
+
+                    <label for="timeStamp">tel：</label>
+                    <input id="timeStamp" type="text" name="timeStamp" value="{{timeStamp}}"><br/>
+
+                </div>
+                <div class="send-button w3layouts">
+                    <input type="submit" value="发 送">
+                </div>
+            </form>
+
+            <div class="con-mapw3 agile">
+                <iframe src="http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d5662244.714693903!2d-2.279153484594319!3d46.13545249359953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sFrance!5e0!3m2!1sen!2sin!4v1471606088687" allowfullscreen></iframe>
+                <img src="{% static "assets/images/map-pin.png"%}" alt="image">
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    </div>
+    <!--//main-->
+    <!--footer-->
+    <div class="footer-w3l">
+        <p> <a>Designed by Go Team From XDU</a></p>
+    </div>
+    <!--//footer-->
+
 </body>
 </html>
+
+
+
