@@ -2,6 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = {
+
     path('initpage/',views.initpage),
     path('initpage/initdetail/',views.initdetail),
 
@@ -16,7 +17,6 @@ urlpatterns = {
 
     path('medicalquerypage/',views.medicalquerypage),
     path('medicalquerypage/medicalquerydetail/',views.medicalquerydetail),
-
 
 }
 

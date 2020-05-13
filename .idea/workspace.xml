@@ -1,55 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cab82e83-c44c-43c4-9c26-9dbed4508fee" name="默认更改列表" comment="前端">
-      <change afterPath="$PROJECT_DIR$/static/assets/css/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/bg_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/bg_input.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/bg_menu_bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/bg_textarea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/footer_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/line_hor1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/marker_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/marker_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/menu_arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/menu_bg_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/menu_bg_top2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/menu_line.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nav1_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nav2_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nav3_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nav4_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nav5_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nav6_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nav7_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nav8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/scroll_drag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/scroll_track.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/scroll_track_bot.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/scroll_track_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/style2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/atooltip.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/contact-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/jScrollPane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.min2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.mousewheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.transform-0.9.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/mobilyblocks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/pages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/superfish.js" afterDir="false" />
+    <list default="true" id="cab82e83-c44c-43c4-9c26-9dbed4508fee" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/information/accountinit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/accountinit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/information/accountquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/accountquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/information/accountupdate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/accountupdate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/information/medicalrecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/medicalrecord.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/information/meidcalquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/meidcalquery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/information/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/information/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information/page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +236,9 @@
       <workItem from="1588259355265" duration="7433000" />
       <workItem from="1588576436541" duration="3362000" />
       <workItem from="1588749199331" duration="3335000" />
-      <workItem from="1588939106803" duration="1858000" />
+      <workItem from="1588939106803" duration="1999000" />
+      <workItem from="1589284006681" duration="1240000" />
+      <workItem from="1589346105373" duration="2000000" />
     </task>
     <task id="LOCAL-00001" summary="发送交易">
       <created>1586772474169</created>
@@ -312,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588752395288</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="前端">
+      <created>1588940987054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588940987054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,10 +304,10 @@
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
     <state x="886" y="188" width="800" height="740" key="#意向/0.24.1920.1005@0.24.1920.1005" timestamp="1586435376195" />
-    <state x="449" y="42" key="CommitChangelistDialog2" timestamp="1588940895249">
+    <state x="449" y="42" key="CommitChangelistDialog2" timestamp="1588940986620">
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
-    <state x="449" y="42" key="CommitChangelistDialog2/0.24.1920.1005@0.24.1920.1005" timestamp="1588940895249" />
+    <state x="449" y="42" key="CommitChangelistDialog2/0.24.1920.1005@0.24.1920.1005" timestamp="1588940986620" />
     <state x="100" y="94" width="1720" height="835" key="DiffContextDialog" timestamp="1586772561774">
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
@@ -397,10 +360,10 @@
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
     <state x="777" y="160" key="SettingsEditor/0.24.1920.1005@0.24.1920.1005" timestamp="1586415295633" />
-    <state x="616" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1588939109548">
+    <state x="616" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1589346251978">
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
-    <state x="616" y="354" key="com.intellij.ide.util.TipDialog/0.24.1920.1005@0.24.1920.1005" timestamp="1588939109548" />
+    <state x="616" y="354" key="com.intellij.ide.util.TipDialog/0.24.1920.1005@0.24.1920.1005" timestamp="1589346251978" />
     <state x="680" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586864520268">
       <screen x="0" y="24" width="1920" height="1005" />
     </state>
